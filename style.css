@@ -35,14 +35,14 @@ header p {
     border: none;
 }
 
-.headDiv {
+.nav {
     display: flex;
     justify-content: space-between;
     text-align: center;
     margin-left: 350px;
 }
 
-.headDiv li {
+.nav li {
     list-style: none;
     color: white;
     margin-right: 20px;
@@ -51,7 +51,7 @@ header p {
     font-size: 15px;
 }
 
-.headDiv li:hover {
+.nav li:hover {
     border-bottom: 5px solid orange;
     cursor: pointer;
 }
