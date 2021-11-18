@@ -1,3 +1,76 @@
-#image-content {
+* {
+    margin: 0;
+    font-family: arial;
+}
+.image-content {
+    position: relative;
+}
 
+#fa-graduation-cap {
+    margin-right: 8px;
+
+}
+header {
+    display: flex;
+    position: absolute;
+    top: 0;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 18px;
+}
+header p {
+    color: white;
+    font-size: 15px;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+.search:hover {
+    border: none;
+}
+.headDiv {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 350px;
+}
+.headDiv li {
+    list-style: none;
+    color: white;
+    margin-right: 20px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.headDiv li:hover {
+    border-bottom: 5px solid orange;
+    cursor: pointer;
+}
+.content {
+    position: absolute;
+    top: 0;
+    margin-top: 220px;
+    margin-left: 300px;
+}
+h1 {
+    color: white;
+    font-size: 50px;
+    margin-top: 5px;
+}
+h5 {
+    font-size: 15px;
+    color: white;
+}
+.btn {
+    background-color: orange;
+    outline: none;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+}
+.btn:hover {
+    background-color: green;
+    cursor: pointer;
+    color: white;
 }
